@@ -1,0 +1,32 @@
+{
+  "name": "test_task_ui_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx wdio run ./wdio.conf.js",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HromayaHorse/test_task_UI_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HromayaHorse/test_task_UI_tests/issues"
+  },
+  "homepage": "https://github.com/HromayaHorse/test_task_UI_tests#readme",
+  "dependencies": {
+    "chrome-modheader": "^1.0.15"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^7.20.5",
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/selenium-standalone-service": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
