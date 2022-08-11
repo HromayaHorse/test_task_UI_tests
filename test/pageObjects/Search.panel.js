@@ -22,10 +22,6 @@ class SearchPanel extends Generic {
     //search results
     get $blockResults() { return $('div.app__content')}
 
-    async calendarPicker(element, value) {
-        await browser.execute(`document.querySelectorAll("${element}")[0].setAttribute("value","${value}")`)
-    }
-
     async seachForFlights(from, to) {
         await (await this.$inputFrom).waitForDisplayed();
         await (await this.$inputTo).waitForDisplayed();
